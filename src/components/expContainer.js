@@ -5,14 +5,14 @@ export default function Cards() {
   const myArr = data.map(i => {
     return (
     <Card 
-    status={i.status}
     img={i.coverImg}
     rate={i.stats.rating}
     reviewCount={`${i.stats.reviewCount}
     /`}
-    country={i.location}
+    location={i.location}
     title={i.title}
     price={i.price}
+    openSpots={i.openSpots}
     unit="person"
   />)
    })

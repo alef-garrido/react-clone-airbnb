@@ -2,11 +2,17 @@
 import starIcon from '../Star-icon.png'
 
 export default function Card(props) {
-  return (
-    
+  let badgeText
+  if(props.openSpots === 0) {
+    badgeText = "SOLD OUT"
+  } else if (props.location === "Online"){
+    badgeText = "ONLINE"
+  }
+
+  return (  
     <div className='card'>
-      <div className='thumbnail'>
-        <span>{props.status}</span>
+       <div className='thumbnail'>
+       {badgeText && <span>{badgeText}</span>}
         <img src={`./images/${props.img}`} alt="Thumbnail" />
       </div>
       <div className='thumbnailTitle'>
