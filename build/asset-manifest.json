@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45430033.css",
+    "main.js": "/static/js/main.d466958a.js",
+    "static/js/787.75dcbd37.chunk.js": "/static/js/787.75dcbd37.chunk.js",
+    "static/media/hero-grid.png": "/static/media/hero-grid.d89f030de9c9a4b6eb61.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.45430033.css.map": "/static/css/main.45430033.css.map",
+    "main.d466958a.js.map": "/static/js/main.d466958a.js.map",
+    "787.75dcbd37.chunk.js.map": "/static/js/787.75dcbd37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45430033.css",
+    "static/js/main.d466958a.js"
+  ]
+}
