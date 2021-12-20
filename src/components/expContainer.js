@@ -6,7 +6,7 @@ export default function Cards() {
     return (
     <Card 
     key={i.id}
-    item={i}
+    {...i}
   />)
    })
   return (
