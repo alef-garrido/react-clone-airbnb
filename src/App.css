@@ -115,6 +115,9 @@
   background-color: white;
   border-radius: 6px;
 }
+.gray{
+  color: gray;
+}
 .thumbnailTitle {
   display: flex;
   align-items: center;

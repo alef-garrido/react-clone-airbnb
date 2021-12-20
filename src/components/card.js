@@ -2,7 +2,6 @@
 import starIcon from '../Star-icon.png'
 
 export default function Card(props) {
-  console.log(props)
   return (
     
     <div className='card'>
@@ -14,7 +13,8 @@ export default function Card(props) {
         <div>
           <img src={ starIcon } />
         </div>
-        <p>{ props.rate } - { props.country }</p>
+        
+        <p>{ props.rate } <span className="gray">{props.reviewCount} - { props.country }</span></p>
       </div>
       <div className='cardTitle'>
         <p>{ props.title }</p>
