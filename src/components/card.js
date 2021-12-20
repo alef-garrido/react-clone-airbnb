@@ -7,11 +7,11 @@ export default function Card(props) {
     <div className='card'>
       <div className='thumbnail'>
         <span>{props.status}</span>
-        <img src={`../images${props.img}`} />
+        <img src={`./images/${props.img}`} alt="Thumbnail" />
       </div>
       <div className='thumbnailTitle'>
         <div>
-          <img src={ starIcon } />
+          <img src={ starIcon } alt="Thumbnail"/>
         </div>
         
         <p>{ props.rate } <span className="gray">{props.reviewCount} - { props.country }</span></p>

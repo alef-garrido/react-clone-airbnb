@@ -1,4 +1,4 @@
-export default [
+ const data = [
   {
       id: 1,
       status: "SOLD OUT",
@@ -42,3 +42,5 @@ export default [
       openSpots: 3,
   }
 ]
+
+export default data 
